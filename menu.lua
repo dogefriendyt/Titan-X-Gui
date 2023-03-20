@@ -236,7 +236,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Script Launched";
                 Duration = 1.5;})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fr0gl3gs/energyassaultPOOG/main/energy%20assult"))()
+loadstring(game:HttpGet("https://www.itots.tk/zaphub/combat-warriors.lua", true))()
 
 end)
 

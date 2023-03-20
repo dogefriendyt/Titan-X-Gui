@@ -285,6 +285,15 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/RTrade/Voidz/main/Mai
 
 end)
 
+Tab1Section:NewButton("Fly Race", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/main/Loader"))()
+
+end)
+
 
 
 

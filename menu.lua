@@ -22,12 +22,30 @@ local Tab4Section = Tab4:NewSection("FE Scripts")
 
 --Tab 1
 
-Tab1Section:NewButton("Pet Simulator X", "Script will start once clicked.", function()
+Tab1Section:NewButton("PSX Project-WD", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Script Launched";
                 Duration = 1.5;})
 loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/psx'))()
+
+end)
+
+Tab1Section:NewButton("PSX Project-Meow", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/psx2'))()
+
+end)
+
+Tab1Section:NewButton("PSX Jasamcovjek28", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/psx2'))()
 
 end)
 

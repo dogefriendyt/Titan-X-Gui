@@ -1,0 +1,30 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Titan X now started.";
+                Duration = 1.5;})
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GdN5iRbt"))() 
+local Window = Library.CreateLib("Titan X", "Ocean") 
+
+
+local Tab1 = Window:NewTab("RT2")
+local Tab1Section = Tab1:NewSection("Cheats And Gui")
+local Tab2Section = Tab1:NewSection("Cheats And Gui")
+
+Tab1Section:NewButton("Instant Cook", "Once clicked, your food will cook instantly.", function()
+ game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Instant Cook [ On ]";
+                Duration = 1.5;
+            })
+local Cooking = game.Players.LocalPlayer.PlayerScripts.CookingNew local CookProgress = require(Cooking.CookProgress) local MultiClick = require(Cooking.InputDetectors.MultiClick) local MouseMovement = require(Cooking.InputDetectors.MouseMovement) local MouseSpin = require(Cooking.InputDetectors.MouseSpin) local run = CookProgress.run CookProgress.run = function(...) local ARGS = {...} ARGS[3] = 0 return run(unpack(ARGS)) end MultiClick.start = function(...) local ARGS = {...} ARGS[3]() end MouseMovement.start = function(...) local ARGS = {...} ARGS[3]() end MouseSpin.start = function(...) local ARGS = {...} ARGS[3]() end
+
+end)
+
+Tab1Section:NewButton("RT2 Hub", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://pastebin.com/raw/uAZf15LR"))()
+
+end)

@@ -312,6 +312,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/ma
 
 end)
 
+Tab1Section:NewButton("Epic Minigames", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Epic%20Minigames/EpicMinigamesGUI"))()
+
+end)
+
+
 
 
 

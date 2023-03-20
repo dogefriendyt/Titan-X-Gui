@@ -15,6 +15,13 @@ local Tab2Section = Tab2:NewSection("Small Exploits")
 local Tab3Section = Tab3:NewSection("Universal Hubs")
 local Tab4Section = Tab4:NewSection("FE Scripts")
 
+
+
+
+
+
+--Tab 1
+
 Tab1Section:NewButton("Restaurant Tycoon 2", "Script will start once clicked.", function()
  game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
@@ -107,6 +114,15 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyRappp/HeyyyRapp
 
 end)
 
+Tab1Section:NewButton("Anime Fighting Simulator Inf Yen", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0exo/dump/main/afs')))()
+
+end)
+
 Tab1Section:NewButton("Adopt Me Autofarm", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
@@ -169,3 +185,96 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/arsenal'))()
 
 end)
+
+
+
+
+--Tab 2
+
+Tab2Section:NewButton("Inf Yield", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+Tab2Section:NewButton("Orca Inf Yield", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
+
+end)
+
+Tab2Section:NewButton("Chat Bypass", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/chatbypass"))()
+
+end)
+
+Tab2Section:NewButton("Invisibility", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/invisibility"))()
+
+end)
+
+Tab2Section:NewButton("Fling GUI", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/fling"))()
+
+end)
+
+Tab2Section:NewButton("Fly", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/fly"))()
+
+end)
+
+Tab2Section:NewButton("Noclip", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/noclip"))()
+
+end)
+
+Tab2Section:NewButton("Infinite Jump", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/infjump"))()
+
+end)
+
+Tab2Section:NewButton("Esp", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/esp"))()
+
+end)
+
+
+
+
+
+--Tab 3
+

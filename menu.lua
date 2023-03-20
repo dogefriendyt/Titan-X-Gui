@@ -22,6 +22,15 @@ local Tab4Section = Tab4:NewSection("FE Scripts")
 
 --Tab 1
 
+Tab1Section:NewButton("Pet Simulator X", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/psx'))()
+
+end)
+
 Tab1Section:NewButton("Restaurant Tycoon 2", "Script will start once clicked.", function()
  game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
@@ -159,7 +168,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/lf4d7/daphie/main/ame
 
 end)
 
-Tab1Section:NewButton("Arsenal 1", "Script will start once clicked.", function()
+Tab1Section:NewButton("Arsenal Owl Hub", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Script Launched";
@@ -168,7 +177,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/maste
 
 end)
 
-Tab1Section:NewButton("Arsenal 2", "Script will start once clicked.", function()
+Tab1Section:NewButton("Arsenal VG Hub", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Script Launched";
@@ -177,7 +186,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/
 
 end)
 
-Tab1Section:NewButton("Arsenal 3", "Script will start once clicked.", function()
+Tab1Section:NewButton("Arsenal VG & Owl", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Script Launched";
@@ -185,6 +194,34 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/arsenal'))()
 
 end)
+
+Tab1Section:NewButton("Randomizer", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/randomizer'))()
+
+end)
+
+Tab1Section:NewButton("Zombie Attack", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/zombieattack'))()
+
+end)
+
+Tab1Section:NewButton("Zombie Rush", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/zombierush'))()
+
+end)
+
 
 
 

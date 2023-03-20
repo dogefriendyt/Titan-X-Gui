@@ -3,28 +3,110 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Text = "Titan X now started.";
                 Duration = 1.5;})
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GdN5iRbt"))() 
-local Window = Library.CreateLib("Titan X", "Ocean") 
+local Window = Library.CreateLib("Titan X", "GrapeTheme") 
 
 
-local Tab1 = Window:NewTab("RT2")
-local Tab1Section = Tab1:NewSection("Cheats And Gui")
-local Tab2Section = Tab1:NewSection("Cheats And Gui")
+local Tab1 = Window:NewTab("Cheats")
+local Tab2 = Window:NewTab("Hubs")
+local Tab1Section = Tab1:NewSection("Exploits")
+local Tab2Section = Tab2:NewSection("Universal Hubs")
 
-Tab1Section:NewButton("Instant Cook", "Once clicked, your food will cook instantly.", function()
+Tab1Section:NewButton("Restaurant Tycoon 2", "Script will start once clicked.", function()
  game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Instant Cook [ On ]";
                 Duration = 1.5;
             })
-local Cooking = game.Players.LocalPlayer.PlayerScripts.CookingNew local CookProgress = require(Cooking.CookProgress) local MultiClick = require(Cooking.InputDetectors.MultiClick) local MouseMovement = require(Cooking.InputDetectors.MouseMovement) local MouseSpin = require(Cooking.InputDetectors.MouseSpin) local run = CookProgress.run CookProgress.run = function(...) local ARGS = {...} ARGS[3] = 0 return run(unpack(ARGS)) end MultiClick.start = function(...) local ARGS = {...} ARGS[3]() end MouseMovement.start = function(...) local ARGS = {...} ARGS[3]() end MouseSpin.start = function(...) local ARGS = {...} ARGS[3]() end
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/0exo/main/rt2'))()
 
 end)
 
-Tab1Section:NewButton("RT2 Hub", "Script will start once clicked.", function()
+Tab1Section:NewButton("Chaos", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Script Launched";
                 Duration = 1.5;})
-loadstring(game:HttpGet("https://pastebin.com/raw/uAZf15LR"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/0exo/main/chaos'))()
+
+end)
+
+Tab1Section:NewButton("Clicker Simulator", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/0exo/main/clickersimulator'))()
+
+end)
+
+Tab1Section:NewButton("Fnf", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/0exo/main/fnf'))()
+
+end)
+
+Tab1Section:NewButton("Apocolypse Tycoon", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/0exo/main/apocolypsetycoon'))()
+
+end)
+
+Tab1Section:NewButton("MM2", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/MM2%20Admin%20Panel"))();
+
+end)
+
+Tab1Section:NewButton("Lucky Blocks", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/stillnotgivingafuck/LuckyBlocks/main/loader.lua')))()
+
+end)
+
+Tab1Section:NewButton("Sonic Speed Simulator", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0sonic2", true))()
+
+end)
+
+Tab1Section:NewButton("Anime Fighting Simulator", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyRappp/HeyyyRappp/main/swhubloader/Loader.lua/matthewpogi/trishacheater')))()
+
+end)
+
+Tab1Section:NewButton("Adopt Me", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/1201for/littlegui/main/Adopt-Me-Shitty-Gui')))()
+
+end)
+
+Tab1Section:NewButton("Prison Life", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/h17s3/TIGERADMIN/main/TIGERADMINSCRIPTFREE'),true))()
 
 end)

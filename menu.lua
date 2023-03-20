@@ -95,6 +95,24 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcm
 
 end)
 
+Tab1Section:NewButton("Sharkbite 2 Catware", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://catware.vercel.app", true))()
+
+end)
+
+Tab1Section:NewButton("Sharkbite 2 Ppearl", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://ppearl.vercel.app'))()
+
+end)
+
 Tab1Section:NewButton("Chaos", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";

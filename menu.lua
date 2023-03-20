@@ -132,12 +132,21 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/0exo/dump/main/afs')
 
 end)
 
-Tab1Section:NewButton("Adopt Me Autofarm", "Script will start once clicked.", function()
+Tab1Section:NewButton("Adopt Me", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Script Launched";
                 Duration = 1.5;})
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/1201for/littlegui/main/Adopt-Me-Shitty-Gui')))()
+oadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
+
+end)
+
+Tab1Section:NewButton("Adopt Me Own All Pets", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lf4d7/daphie/main/ame.lua"))()
 
 end)
 
@@ -156,15 +165,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Text = "Script Launched";
                 Duration = 1.5;})
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
-
-end)
-
-Tab1Section:NewButton("Adopt Me Own All Pets", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lf4d7/daphie/main/ame.lua"))()
 
 end)
 

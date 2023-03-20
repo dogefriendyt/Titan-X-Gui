@@ -222,6 +222,15 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/zombie
 
 end)
 
+Tab1Section:NewButton("Energy Assault", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/energyassault'))()
+
+end)
+
 
 
 

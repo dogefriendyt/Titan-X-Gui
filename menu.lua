@@ -374,15 +374,6 @@ loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/
 
 end)
 
-Tab2Section:NewButton("Chat Bypass", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/chatbypass"))()
-
-end)
-
 Tab2Section:NewButton("Invisibility", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";

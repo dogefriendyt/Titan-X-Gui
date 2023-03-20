@@ -22,6 +22,15 @@ local Tab4Section = Tab4:NewSection("FE Scripts")
 
 --Tab 1
 
+Tab1Section:NewButton("Blox Fruits Chest Farm", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+
+end)
+
 Tab1Section:NewButton("PSX Project-WD", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";

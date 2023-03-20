@@ -301,15 +301,6 @@ loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/f
 
 end)
 
-Tab2Section:NewButton("Fly", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/fly"))()
-
-end)
-
 Tab2Section:NewButton("Noclip", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
@@ -386,6 +377,15 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Text = "Script Launched";
                 Duration = 1.5;})
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/soggyware"))()
+
+end)
+
+Tab3Section:NewButton("Moon Hub", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/moonhub"))()
 
 end)
 

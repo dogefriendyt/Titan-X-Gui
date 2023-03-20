@@ -363,6 +363,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/So
 
 end)
 
+Tab2Section:NewButton("Btools", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+
+end)
+
 
 
 

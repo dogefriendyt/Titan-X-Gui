@@ -60,10 +60,20 @@ end)
 Tab1Section:NewButton("Restaurant Tycoon 2", "Script will start once clicked.", function()
  game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
-                Text = "Instant Cook [ On ]";
+                Text = "Script Launched";
                 Duration = 1.5;
             })
 loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/rt2'))()
+
+end)
+
+Tab1Section:NewButton("Slap Battles", "Script will start once clicked.", function()
+ game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;
+            })
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
 
 end)
 

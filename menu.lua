@@ -113,6 +113,15 @@ loadstring(game:HttpGet('https://ppearl.vercel.app'))()
 
 end)
 
+Tab1Section:NewButton("Strong Man Simulator", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tip52/Leo-hub/main/loader"))()
+
+end)
+
 Tab1Section:NewButton("Chaos", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";

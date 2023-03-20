@@ -6,13 +6,13 @@ local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GdN5iRbt"))()
 local Window = Library.CreateLib("Titan X", "GrapeTheme") 
 
 
-local Tab1 = Window:NewTab("Cheats")
-local Tab2 = Window:NewTab("Small Cheats")
-local Tab3 = Window:NewTab("Hubs")
-local Tab4 = Window:NewTab("FE")
-local Tab1Section = Tab1:NewSection("Exploits")
-local Tab2Section = Tab2:NewSection("Small Exploits")
-local Tab3Section = Tab3:NewSection("Universal Hubs")
+local Tab1 = Window:NewTab("Game Cheats")
+local Tab2 = Window:NewTab("Extra Cheats")
+local Tab3 = Window:NewTab("Game Hubs")
+local Tab4 = Window:NewTab("FE Scripts")
+local Tab1Section = Tab1:NewSection("Game Cheats")
+local Tab2Section = Tab2:NewSection("Extra Cheats")
+local Tab3Section = Tab3:NewSection("Game Hubs")
 local Tab4Section = Tab4:NewSection("FE Scripts")
 
 
@@ -231,6 +231,15 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/0exo/dump/main/energy
 
 end)
 
+Tab1Section:NewButton("Combat Warriors", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fr0gl3gs/energyassaultPOOG/main/energy%20assult"))()
+
+end)
+
 
 
 
@@ -318,9 +327,60 @@ loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/e
 
 end)
 
+Tab2Section:NewButton("Admin", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+
+end)
+
+
 
 
 
 
 --Tab 3
 
+Tab3Section:NewButton("V.G. Hub", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+
+end)
+
+Tab3Section:NewButton("Owl Hub", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+
+end)
+
+Tab3Section:NewButton("Voidz Hub", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/voidz"))()
+
+end)
+
+Tab3Section:NewButton("Soggyware", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/soggyware"))()
+
+end)
+
+
+
+
+
+--tab 4

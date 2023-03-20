@@ -10,13 +10,10 @@ local Tab1 = Window:NewTab("Game Cheats")
 local Tab2 = Window:NewTab("Extra Cheats")
 local Tab3 = Window:NewTab("Game Hubs")
 local Tab4 = Window:NewTab("FE Scripts")
-local Tab5 = Window:NewTab("Teleport")
 local Tab1Section = Tab1:NewSection("Game Cheats")
 local Tab2Section = Tab2:NewSection("Extra Cheats")
 local Tab3Section = Tab3:NewSection("Game Hubs")
 local Tab4Section = Tab4:NewSection("FE Scripts")
-local Tab5Section = Tab4:NewSection("Teleport")
-
 
 
 
@@ -423,19 +420,3 @@ end)
 
 
 --tab 4
-
-
-
-
-
-
---tab 5
-
-Tab5Section:NewButton("Arsenal", "You will teleport once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/t/main/arsenal"))()
-
-end)

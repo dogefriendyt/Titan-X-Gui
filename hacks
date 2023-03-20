@@ -13,7 +13,7 @@ local Tab4 = Window:NewTab("FE")
 local Tab1Section = Tab1:NewSection("Exploits")
 local Tab2Section = Tab2:NewSection("Small Exploits")
 local Tab3Section = Tab3:NewSection("Universal Hubs")
-local Tab4Section = Tab3:NewSection("FE Scripts")
+local Tab4Section = Tab4:NewSection("FE Scripts")
 
 Tab1Section:NewButton("Restaurant Tycoon 2", "Script will start once clicked.", function()
  game:GetService("StarterGui"):SetCore("SendNotification",{

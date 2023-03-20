@@ -240,6 +240,16 @@ loadstring(game:HttpGet("https://www.itots.tk/zaphub/combat-warriors.lua", true)
 
 end)
 
+Tab1Section:NewButton("Bedwars", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/RTrade/Voidz/main/Main/Bedwars.lua'))()
+
+end)
+
+
 
 
 

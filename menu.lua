@@ -131,6 +131,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tip52/Leo-hub/main/lo
 
 end)
 
+Tab1Section:NewButton("Muscle Legends", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+
+end)
+
 Tab1Section:NewButton("Chaos", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";

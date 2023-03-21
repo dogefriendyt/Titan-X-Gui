@@ -30,15 +30,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Lo
 
 end)
 
-Tab1Section:NewButton("Da Hood SwagMode", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
-
-end)
-
 Tab1Section:NewButton("Blox Fruits Chest Farm", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";

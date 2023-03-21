@@ -48,6 +48,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/
 
 end)
 
+Tab1Section:NewButton("Blox Fruits", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Script Launched";
+                Duration = 1.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/bf", true))()
+
+end)
+
 Tab1Section:NewButton("PSX Project-WD", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";

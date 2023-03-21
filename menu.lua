@@ -231,15 +231,6 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/0exo/dump/main/afs')
 
 end)
 
-Tab1Section:NewButton("Adopt Me", "Script will start once clicked.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Script Launched";
-                Duration = 1.5;})
-oadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
-
-end)
-
 Tab1Section:NewButton("Adopt Me Own All Pets", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";

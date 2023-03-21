@@ -21,6 +21,15 @@ local Tab4Section = Tab4:NewSection("Other")
 
 --Tab 1
 
+Tab1Section:NewButton("Titan X Github", "Script will start once clicked.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Copied to clipboard";
+                Duration = 1.5;})
+setclipboard("https://github.com/0exo/Titan-X-Gui")
+
+end)
+
 Tab1Section:NewButton("Da Hood Pluto", "Script will start once clicked.", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";

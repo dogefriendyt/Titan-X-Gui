@@ -1,9 +1,9 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
-                Text = "Mini X now started.";
+                Text = "Titan X now started.";
                 Duration = 1.5;})
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GdN5iRbt"))() 
-local Window = Library.CreateLib("Mini X", "GrapeTheme") 
+local Window = Library.CreateLib("Titan X", "GrapeTheme") 
 
 
 local Tab1 = Window:NewTab("Main")

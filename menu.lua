@@ -251,7 +251,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Script Launched";
                 Duration = 1.5;})
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/invisibility"))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0exo/dump/main/invisibility-v2"))()
 
 end)
 
